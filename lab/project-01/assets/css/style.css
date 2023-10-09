@@ -519,3 +519,65 @@ a {
 }
 
 /* # Stats */
+
+
+/* #: Subscription */
+
+.subscription .content {
+  padding: 51px 0 55px;
+}
+
+.subscription .wrapper {
+  position: relative;
+  bottom: 0;
+  border-radius: 20px;
+  height: 409px;
+  width: 100%;
+}
+
+.subscription .background {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 370px;
+  width: 100%;
+  border-radius: 20px;
+  background: #063183;
+}
+
+.subscription .info {
+  margin-top: 110px;
+  margin-left: 80px;
+}
+
+.subscription .heading-h2 {
+  color: #FFF;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.subscription .desc {
+  margin-top: 15px;
+  color: #FFF;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.87;
+  opacity: 0.75;
+}
+
+.subscription .subscription-cta {
+  margin-top: 20px;
+  width: 151px;
+  color: #002366;
+  font-size: 1.3rem;
+  font-weight: 500;
+  background: #fff;
+}
+
+.subscription .phone {
+  position: absolute;
+  right: 221px;
+  bottom: 0;
+}
+
+/* # Subcription */
