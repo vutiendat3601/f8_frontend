@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* #: Common */
+a {
+  text-decoration-line: none;
+}
+
+.btn {
+  --btn-height: 50px;
+  display: inline-block;
+  height: var(--btn-height);
+  min-width: 98px;
+  text-align: center;
+  border-radius: 12px;
+  background: #0F1B4C;
+  line-height: var(--btn-height);
+}
+
+.content {
+  width: 1110px;
+  max-width: calc(100% - 48px);
+  margin: 0 auto;
+}
+
+/* # Common */
+
+/* #: Header */
+.header {
+  --navbar-height: 78px;
+  height: 100vh;
+  background: #E6F0FF;
+  position: relative;
+}
+
+.header .navbar {
+  display: flex;
+  align-items: center;
+  padding-top: 38px;
+}
+
+.navbar .nav {
+  display: flex;
+  gap: 28px;
+  margin-left: 64px;
+}
+
+.navbar .nav-item a {
+  color: #4F5361;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.navbar .nav-item:hover a {
+  text-decoration-line: underline;
+}
+
+.navbar .action {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  gap: 18px;
+}
+
+.navbar .action-btn {
+  color: #0F1B4C;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.navbar .sign-up-btn {
+  --btn-height: 40px;
+  color: #FFF;
+  font-size: 1.4rem;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  height: calc(100vh - var(--navbar-height));
+}
+
+.hero .info {
+  max-width: 559px;
+  margin-top: 130px;
+}
+
+.hero .info .heading-h2 {
+  color: #687690;
+  font-size: 1.8rem;
+  letter-spacing: 0.18px;
+}
+
+.hero .info .heading {
+  margin-top: 8px;
+  color: #000336;
+  font-size: 6.4rem;
+  font-weight: 700;
+  line-height: 1.19;
+}
+
+.hero .info .desc {
+  margin-top: 30px;
+  color: #5A6473;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.78;
+}
+
+.hero .info .hero-cta {
+  width: 170px;
+  margin-top: 40px;
+  color: #FFF;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.hero .image {
+  position: absolute;
+  bottom: 0;
+  right: calc((100vw - 1110px) / 2 - 100px);
+}
+
+/* # Header */
