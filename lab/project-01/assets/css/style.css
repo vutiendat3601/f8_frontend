@@ -136,3 +136,59 @@ a {
 }
 
 /* # Header */
+
+/* #: Client */
+
+.client {
+  margin-top: 79px;
+}
+
+.client .content {
+  padding: 43px 0 41px;
+}
+
+.client .review {
+  display: flex;
+  justify-content: space-between;
+}
+
+.client .review .desc {
+  color: #7D8589;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.client .review .left-block .desc {
+  margin-top: 23px;
+}
+
+.client .review .right-block {
+  text-align: right;
+}
+
+.client .review .right-block .desc {
+  margin-top: 18.15px;
+}
+
+.client .brand {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.client .brand-link {
+  height: 91px;
+  display: flex;
+  align-items: center;
+  padding: 0 42px;
+  border-radius: 10px;
+  /* object-fit: contain; */
+}
+
+.client .brand-link:hover {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* # Client */
