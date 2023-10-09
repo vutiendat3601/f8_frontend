@@ -369,3 +369,153 @@ a {
 }
 
 /* # Feature */
+
+
+/* #: Stats */
+
+.stats {
+  margin-top: 75px;
+  padding: 50px 0;
+}
+
+.stats .row {
+  display: flex;
+}
+
+.stats .image-block {
+  position: relative;
+}
+
+.stats .stats-trend {
+  position: absolute;
+  left: 31px;
+  width: 239px;
+  height: 252px;
+  padding: 45px 22px 40px;
+  border-radius: 0px 0px 12px 12px;
+  box-shadow: 90px 85px 100px 0px rgba(0, 0, 0, 0.06);
+  background: #fff;
+  /* background: #ccc; */
+}
+
+.stats .stats-trend .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stats .stats-trend .value {
+  color: #000339;
+  font-size: 2.6rem;
+  font-weight: 700;
+  letter-spacing: 0.026rem;
+}
+
+.stats .stats-trend .desc {
+  margin-top: 8px;
+  color: #A7A7A7;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.stats .stats-trend .separator {
+  margin-top: 25px;
+  width: 100%;
+  height: 1.2px;
+  background: #E9E9E9;
+}
+
+.stats .stats-trend .user-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  gap: 13px 16px;
+}
+
+.stats .stats-trend .avatar-group {
+  display: flex;
+}
+
+/* .stats .stats-trend .avatar-group~.avatar-group {
+  margin-left: 13px;
+} */
+
+.stats .stats-trend .avatar {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.stats .stats-trend .avatar~.avatar {
+  margin-left: -3px;
+}
+
+.stats .image-block .image {
+  object-fit: cover;
+  width: 400px;
+  height: 460px;
+  border-radius: 12px;
+  box-shadow: 40px 80px 155px 0px rgba(30, 103, 113, 0.03);
+  margin-left: 151px;
+}
+
+.stats .info {
+  margin-left: 165px;
+}
+
+.stats .info .heading-h2 {
+  position: relative;
+  margin-top: 79px;
+  color: #000339;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1.29;
+}
+
+.stats .info .heading::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  height: 4px;
+  width: 41px;
+  border-radius: 12px;
+  background: #000;
+}
+
+.stats .info .desc {
+  margin-top: 20px;
+  width: 309px;
+  color: #5A6473;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.88;
+}
+
+.stats .row-qty {
+  margin-top: 110px;
+  justify-content: space-between;
+  padding: 0 62px;
+}
+
+.stats .qty-item .qty {
+  color: #000;
+  font-family: Poppins;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+  /* 100% */
+}
+
+.stats .qty-item .desc {
+  margin-top: 24px;
+  color: #7B8087;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+/* # Stats */
